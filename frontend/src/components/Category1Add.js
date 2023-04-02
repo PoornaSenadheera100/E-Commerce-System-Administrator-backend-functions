@@ -12,7 +12,7 @@ export default function Category1Add(){
 
         axios.post("http://localhost:8070/category1/add", newCategory).then(()=>{
             alert("Category Added !");
-            window.location.replace("http://localhost:3000/categories");
+            window.location.replace("https://6428f31db9346d21afc59301--stunning-pegasus-128f89.netlify.app/categories");
         }).catch((err)=>{
             alert(err);
         })
