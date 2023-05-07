@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function Category1Add() {
   const [name, setName] = useState("");
-  const [test, setTest] = useState({});
+  //   const [test, setTest] = useState({});
 
   function sendData(e) {
     e.preventDefault();
